@@ -21,15 +21,16 @@ body {
   background-color: hsl(30, 54%, 90%);
   font-size: 16px;
   font-family: "outfit", sans-serif;
+  max-width: 1440px;
 }
 
 .container {
   background-color: #fff;
   padding: 28px;
   border-radius: 15px;
-  max-width: 1000px;
+  max-width: 700px;
   overflow: hidden;
-  margin: 2px auto;
+  margin: 70px auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 h2 {
@@ -131,5 +132,28 @@ p {
     color:hsl(14, 45%, 36%);
     font-weight: bold;
 }
+/* *============== nutrition ================ */
+.nutrition table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 18px;
+}
 
+.nutrition tr{
+    border-top: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition tr:first-child{
+    border-top: none;
+}
+
+.nutrition td{
+    padding: 14px 0 14px 32px;
+    color:hsl(30, 10%, 34%);
+}
+
+.nutrition td:last-child{
+    color:hsl(14, 45%, 36%);
+    font-weight: 700;
+}
 
